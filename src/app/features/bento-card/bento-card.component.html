@@ -1,0 +1,14 @@
+<div class="bento-card">
+  <!-- Image (si présente) -->
+  @if (imageUrl()) {
+    <div class="bento-card-image">
+      <img [src]="imageUrl()" alt="{{ title() }}" class="w-full h-40 object-cover rounded-t-lg">
+    </div>
+  }
+
+  <!-- Contenu principal -->
+  <div class="bento-card-content p-4">
+    <h3 class="bento-card-title text-xl font-bold mb-2">{{ title() }}</h3>
+    <p class="bento-card-description text-gray-600">{{ description() }}</p>
+  </div>
+</div>

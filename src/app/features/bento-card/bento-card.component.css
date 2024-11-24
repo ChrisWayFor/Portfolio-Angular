@@ -1,0 +1,23 @@
+.bento-card {
+  background-color: #ffffff; /* Fond blanc */
+  border-radius: 0.5rem; /* Coins arrondis */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  transition: transform 0.2s, box-shadow 0.2s; /* Transition fluide */
+}
+
+.bento-card:hover {
+  transform: scale(1.05); /* Zoom léger au survol */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Ombre plus intense */
+}
+
+.bento-card-image img {
+  border-radius: 0.5rem 0.5rem 0 0; /* Coins arrondis en haut */
+}
+
+.bento-card-title {
+  color: #1e293b; /* Titre sombre */
+}
+
+.bento-card-description {
+  color: #64748b; /* Texte description gris */
+}
